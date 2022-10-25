@@ -1,0 +1,52 @@
+SCEGLIERE COSA GUARDARE SU NETFLIX:
+
+Buttarsi sul divano
+prendere il telecomando
+accendere tv
+aprire Netflix
+scegliere account
+    (if) se sono solo/a
+        TRUE - (if) cerco film consigliato da amici
+                TRUE- leggo trama
+                    -guardo trailer
+                    (if) se mi convince
+                            TRUE - schiaccio play
+                            FALSE- guardo nella mia "whatch list"
+                                (if) locandina interessante
+                                    TRUE-leggo trama
+                                        -guardo trailer
+                                        (if) se mi piace
+                                            TRUE- schiaccio play
+                                            FALSE- (sono nevrotico => riproduzione casuale)
+                                                    ricomincio ciclo
+                                    FALSE- vado nei più popolari
+                                        -scelgo due film 
+                                        -leggo trama
+                                        -guardo trailer
+                                        (if) (...ricomincio ciclo)
+                FALSE-scelgo categoria serie o film
+                    (if) serie
+                       TRUE- (if) se ho una vecchia serie in sospeso
+                                TRUE- schiaccio play
+                                FALSE- guardo classifica dei film più votati su IMDB
+                                    -scelgo due titoli
+                                    - guardo trailer
+                                     (if) se mi confronvince uno dei due
+                                        TRUE- schiaccio play
+                                        FALSE-scelgo altri due titoli
+                                             - guardo trailer
+                                             (..RIPETI CICLO)
+                        TRUE -scelgo se continuare a guardare una vecchia serie 
+                            (if) continuo una serie
+                                -schiaccio play
+        FALSE - mi confronto con le altre persone
+            -votiamo categoria film o serie
+                (if) film
+                    TRUE- categoria (commedia, horror, azione..)
+                        -scegliamo tre film
+                        -votiamo
+                        -schiacciamo play
+                    FALSE- segliamo categoria (...)
+                        - scegliamo tre serie
+                        -votiamo
+                        -schiacciamo play
